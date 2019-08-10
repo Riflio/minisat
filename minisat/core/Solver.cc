@@ -990,7 +990,7 @@ void Solver::toDimacs(FILE* f, const vec<Lit>& assumps)
 
 void Solver::printStats() const
 {
-    double cpu_time = cpuTime();
+    /*double cpu_time = cpuTime();
     double mem_used = memUsedPeak();
     printf("restarts              : %"PRIu64"\n", starts);
     printf("conflicts             : %-12"PRIu64"   (%.0f /sec)\n", conflicts   , conflicts   /cpu_time);
@@ -999,6 +999,7 @@ void Solver::printStats() const
     printf("conflict literals     : %-12"PRIu64"   (%4.2f %% deleted)\n", tot_literals, (max_literals - tot_literals)*100 / (double)max_literals);
     if (mem_used != 0) printf("Memory used           : %.2f MB\n", mem_used);
     printf("CPU time              : %g s\n", cpu_time);
+*/
 }
 
 
